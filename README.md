@@ -1,1 +1,1 @@
-#Tutorial and learning project using Sass, CSS
+#Tutorial and learning project using SCSS, CSS
