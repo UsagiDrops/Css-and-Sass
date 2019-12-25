@@ -1,1 +1,1 @@
-#Tutorial and learning project using SCSS, CSS
+#Tutorial and learning project using SCSS, CSS and npm
