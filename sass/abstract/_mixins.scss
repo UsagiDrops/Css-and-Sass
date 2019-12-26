@@ -1,3 +1,44 @@
+/*
+    0-600
+    600-900
+    900-1200
+    1200-1800
+    1800+
+
+    @content css code
+
+    breakpoints
+    - phone 600px/37.5em
+    - tab-port 900px/56.25em
+    - tab-land 1200px/75em
+    - big-desktop 1800px/112em
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: 37.5em) {
+            @content
+        };
+    }
+
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.25em) {
+            @content
+        };
+    }
+
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) {
+            @content
+        };
+    }
+
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112em) {
+            @content
+        };
+    }
+}
+
 @mixin clearfix {
     &::after {
         content: "";
