@@ -10,7 +10,7 @@
     breakpoints
     - phone 600px/37.5em
     - tab-port 900px/56.25em
-    - tab-land 1200px/75em
+    - tab-landscape 1200px/75em
     - big-desktop 1800px/112em
 */
 @mixin respond($breakpoint) {
@@ -53,4 +53,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 
